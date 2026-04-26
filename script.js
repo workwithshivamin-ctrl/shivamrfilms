@@ -397,7 +397,7 @@
            service: form.service.value,
            message: form.message.value.trim(),
          };
-         await fetch('tables/enquiries', {
+         await fetch('https://formspree.io/f/maqakgbr', {
            method: 'POST',
            headers: { 'Content-Type': 'application/json' },
            body: JSON.stringify(data),
